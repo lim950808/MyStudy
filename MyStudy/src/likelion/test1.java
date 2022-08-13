@@ -1,5 +1,5 @@
 package likelion;
-// 1. 두 수를 입력 받아서 더하기
+// 1. 콘솔 창에서 두 개의 숫자를 입력 받아 두 수를 더한 값을 결과로 출력
 import java.util.Scanner;
 
 public class test1 {
@@ -14,7 +14,7 @@ public class test1 {
 			try {
 				num1 = sc.nextInt();
 				break;
-			}catch (Exception e){
+			}catch (Exception e) {
 				sc = new Scanner(System.in);
 				System.out.println("[입력오류] : 숫자로 입력해주세요.");
 			}
@@ -30,7 +30,6 @@ public class test1 {
 			}
 		}
 		result = num1 + num2;
-		System.out.print("결과 : "+result);
-			
+		System.out.print("결과 : " + result);	
 	}
 }
